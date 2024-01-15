@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* Ekranın en üstüne dönme animasyonu */
+@keyframes scrollToTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Satın alma planı butonu için geçiş efekti */
+.scrollToTopButtonActive {
+  transition: background-color 0.3s ease-in-out;
+}
